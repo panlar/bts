@@ -59,6 +59,10 @@ img {
   background-color: #000;
 }
 
+.load span {
+  text-align: center;
+}
+
 .welcome {
   animation: welcome 5s ease-in-out forwards;
 }
