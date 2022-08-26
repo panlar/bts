@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS PlayList</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/btsLogo.png" type="image/x-icon">
+  </head>
+  <body>
+
+    <div class="load">
+      <span>
+        P L A Y
+      </span>
+      <div class="loadButton">
+        <ion-icon name="play-outline"></ion-icon>
+      </div>
+    </div>
+
+    <section class="swiperContainer">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        </div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <div class="progress">
+        <output class="progressTime">00:00</output>
+        <input type="range" value="0" class="progressBar" min="0">
+        <output class="durationTime">00:00</output>
+      </div>
+      <div class="volume">
+        <div class="volumeIcon">
+          <ion-icon name="volume-high-outline"></ion-icon>
+        </div>
+        <input class="volumeBar" type="range" value="100" max="100" min="0">
+        <output class="volumeValue">100%</output>
+      </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }
+      });
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>

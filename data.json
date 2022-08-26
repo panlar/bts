@@ -1,0 +1,52 @@
+[
+  {
+    "path": "../audio/MyUniverse-BTS-ft-Coldplay.mp3",
+    "thumbnail": "./img/MyUniverse.jpg",
+    "title": "My Universe",
+    "artist": "Coldplay ft. BTS",
+    "id": 1
+  },
+  {
+    "path": "../audio/BestOfMe-BTS.mp3",
+    "thumbnail": "./img/LoveYourself.jpg",
+    "title": "Best Of Me",
+    "artist": "BTS",
+    "id": 2
+  },
+  {
+    "path": "../audio/GoGo-BTS.mp3",
+    "thumbnail": "./img/LoveYourself.jpg",
+    "title": "Go Go",
+    "artist": "BTS",
+    "id": 3
+  },
+  {
+    "path": "../audio/ChristmasTree-V.mp3",
+    "thumbnail": "./img/ChristmasTree.jpg",
+    "title": "Christmas Tree",
+    "artist": "V",
+    "id": 4
+  },
+  {
+    "path": "../audio/LouderThanBombs-BTS.mp3",
+    "thumbnail": "./img/MapOfTheSoul7.jpg",
+    "title": "Louder Than Bombs",
+    "artist": "BTS",
+    "id": 5
+  },
+  {
+    "path": "../audio/MagicShop-BTS.mp3",
+    "thumbnail": "./img/LoveYourself.jpg",
+    "title": "Magic Shop",
+    "artist": "BTS",
+    "id": 6
+  },
+  {
+    "path": "../audio/Mikrokosmos-BTS.mp3",
+    "thumbnail": "./img/MapOfTheSoulPersona.jpg",
+    "title": "Mikrokosmos",
+    "artist": "BTS",
+    "id": 7
+  }
+
+]
